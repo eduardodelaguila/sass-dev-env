@@ -24,6 +24,8 @@ To run this mode you should use ```npm run build```.
 
 If you try to run ```npm run dev``` or ```npm run build``` with ```/src/scss/```folder empty, scripts will throw an error, don't worry, when you add a file into ```scss```folder the error will be gone.
 
+**This error will be fixed in the future**
+
 
 ## Thanks
 
