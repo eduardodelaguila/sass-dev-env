@@ -10,7 +10,7 @@
     "build-task-dev:scss-compile": "node-sass-chokidar --source-map true src/scss/ -o dev/css",
     "build-task-dev:autoprefixer": "postcss dev/css/*.css --use autoprefixer -d dev/css",
     "build": "npm-run-all -p build-task:*",
-    "sass:watch": "chokidar 'src/scss/**/*.scss' -c 'npm run sass-build'",
+    "sass:watch": "chokidar 'src/scss/**/*.scss' -c 'npm run sass:build'",
     "dev": "npm-run-all -p sass:*"
   },
   "author": "Eduardo Del Aguila Maldonado",
